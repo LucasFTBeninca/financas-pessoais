@@ -9,5 +9,7 @@ public enum Categoria
     Educacao,
     Lazer,
     Salario,
-    Outros
+    Outros,
+    Aluguel,
+    Internet
 }

@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/FinancasPessoais.Console/FinancasPessoais.Console.csproj" />
+    <Project Path="src/FinancasPessoais.Domain/FinancasPessoais.Domain.csproj" />
+  </Folder>
+</Solution>

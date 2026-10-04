@@ -27,4 +27,10 @@ protected Lancamento(string descricao, decimal valor, DateOnly data, Categoria c
 }
 
 public abstract decimal ValorNoMes(int ano, int mes);
+
+protected bool OcorreNoMes(int ano, int mes)
+    {
+        return Data.Year == ano && Data.Month == mes;
+    }
+    
 }

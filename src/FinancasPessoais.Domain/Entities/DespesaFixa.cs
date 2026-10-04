@@ -3,7 +3,7 @@ using FinancasPessoais.Domain.Exceptions;
 
 namespace FinancasPessoais.Domain.Entities;
 
-public class DespesaFixa : Lancamento
+public class DespesaFixa : Despesa
 {
     public DespesaFixa(string descricao, decimal valor, DateOnly data, Categoria categoria)
         : base(descricao, valor, data, categoria)

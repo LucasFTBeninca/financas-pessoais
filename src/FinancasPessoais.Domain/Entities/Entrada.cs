@@ -13,6 +13,6 @@ public class Entrada : Lancamento
 
     public override decimal ValorNoMes(int ano, int mes)
     {
-        return Data.Year == ano && Data.Month == mes ? Valor : 0m;
+        return OcorreNoMes(ano, mes) ? Valor : 0m;
     }
 }

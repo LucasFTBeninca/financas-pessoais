@@ -10,8 +10,9 @@ extrato.Adicionar(new DespesaFixa("Aluguel", 1500m, new DateOnly(2026, 8, 10), C
 extrato.Adicionar(new DespesaFixa("Internet", 100m, new DateOnly(2026, 10, 15), Categoria.Moradia));
 extrato.Adicionar(new DespesaVariavel("Mercado", 450m, new DateOnly(2026, 10, 12), Categoria.Alimentacao));
 extrato.Adicionar(new DespesaVariavel("Energia", 450m, new DateOnly(2026, 10, 12), Categoria.Moradia));
+extrato.Adicionar(new DespesaParcelada("Notebook", 3000m, new DateOnly(2026, 10, 20), Categoria.Outros, 10));
 
-foreach (var mes in new[] { 9, 10 })
+foreach (var mes in new[] { 9, 10, 11 })
 {
     var resumo = extrato.GerarResumo(2026, mes);
 

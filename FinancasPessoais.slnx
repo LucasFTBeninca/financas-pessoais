@@ -3,4 +3,7 @@
     <Project Path="src/FinancasPessoais.Console/FinancasPessoais.Console.csproj" />
     <Project Path="src/FinancasPessoais.Domain/FinancasPessoais.Domain.csproj" />
   </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/FinancasPessoais.Tests/FinancasPessoais.Tests.csproj" />
+  </Folder>
 </Solution>
